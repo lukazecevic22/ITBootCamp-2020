@@ -1,0 +1,108 @@
+*
+{
+margin:0 ;
+padding: 0;
+box-sizing: border-box;
+}
+header{
+height: 350px;
+background-size:cover ;
+background-position: center;
+}
+.main-nav{
+    float:left;
+    list-style: none;
+    margin-top: 30px;
+
+}
+.main-nav button{
+    display: inline-block;
+}
+.main-nav button{
+    color: rgb(46, 22, 22);
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px; 
+}
+.main-nav button.active{
+    border:2px solid yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px ;
+    border-radius: 7px;
+
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(TKDBGlq.png);
+
+}
+.row{
+    max-width: 1200px;
+    margin-left: 125px;
+
+}
+.hero{
+    position: absolute;
+    width: 1200px;
+    margin-right: 0;
+text-align: left;
+margin-left: 85px;
+margin-top: 15px;}
+
+h2{
+    color: yellow;
+    text-transform: uppercase;
+    font-size: 60px;
+    text-align:left;
+    margin-top: 175px;
+    margin-left: 45px;
+    text-shadow: 3px 4px darkgray;
+    
+}
+.hero a{
+    margin-left: 305px;  
+}
+.choose{
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration-color: white
+    ;}
+.jedisith{
+    display: flex;
+    margin-left: 150px;
+    margin-right: 850px;
+}
+.jed{
+    flex: 50%;
+  padding: 5px;
+}
+.bojateksta{
+    color: white;
+    text-shadow: 2px 1px blue;
+    margin-left: 30px;
+    text-align: left;
+}
+.bojateksta1{
+    color: white;
+    text-shadow: 2px 1px red;
+    margin-left: 30px;
+    text-align: left;
+}
+.contact-us{
+text-align: left;
+margin-left: 130px;
+margin-top: 80px;
+}
+
+.opis{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration-color: white;
+    font-size: 15px; 
+    color: white;
+    margin-bottom: 15px;
+    
+}
+.col-6{
+    margin-bottom: 5px;
+}
