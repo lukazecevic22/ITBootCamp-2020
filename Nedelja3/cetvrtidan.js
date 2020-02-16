@@ -41,6 +41,13 @@ console.log(poruka);
 let vreme = new Date();
 console.log(vreme);
 
+
+if( count==0){
+    console.log('Neispravan unos');
+}
+
+
+
 pCount1.innerHTML=poruka+vreme;
 
 })
