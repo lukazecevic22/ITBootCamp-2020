@@ -17,13 +17,14 @@ let btnOrder = document.querySelector('#order');
 btnOrder.addEventListener('click', () => {
 count++;
 pCount.innerHTML = count;
+
 })
 
 let app = document.querySelector('#app');
 app.appendChild(pCount); 
 
 let pCount1 = document.querySelector('#count1');
-    
+
 pCount1.innerHTML = count;
 
 
@@ -34,21 +35,18 @@ btnOrdernow.addEventListener('click', () => {
 function msg(){
 return (`dobar dan poruceno ${count} pizze,`);
 }
+if( count===0){
+    alert("Neispravan unos"); 
+}
+
 let poruka=msg(count)
 console.log(poruka);
 
-// pCount1.innerHTML = count;
 let vreme = new Date();
 console.log(vreme);
-
-
-if( count==0){
-    console.log('Neispravan unos');
-}
-
-
-
+count=0;
 pCount1.innerHTML=poruka+vreme;
+
 
 })
 app.appendChild(pCount1);
