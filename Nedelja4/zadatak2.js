@@ -24,7 +24,14 @@ characteristics: {attack: 84,defence:78, speed:100}
 }
 
 
-function pok(pok1,pok2,pok3,pok4){
-    return `<${pok1.abilities}><${pok2.abilities}><${pok3.abilities}<${pok4.abilities}>` //ne trb ovako. mora drugacije.
-}
-console.log(pok(pokemon1,pokemon2,pokemon3,pokemon4))
+// function pok(pok1,pok2,pok3,pok4){
+//     return `<${pok1.abilities}><${pok2.abilities}><${pok3.abilities}<${pok4.abilities}>` //ne trb ovako. mora drugacije.
+// }
+// console.log(pok(pokemon1,pokemon2,pokemon3,pokemon4))
+
+let pokemoni = [pokemon1,pokemon2,pokemon3,pokemon4];
+
+let rez=pokemoni.map((poki)=>{
+    return `${poki.abilities}`
+})
+console.log(rez);
