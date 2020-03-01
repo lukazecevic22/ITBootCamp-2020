@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="app.css">
+    <title>Prihod i rashod</title>
+</head>
+
+<body>
+    <header class="header">
+        <h1>DOSTUPAN BUDZET MESEC GODINA</h1>
+    </header>
+    <div class="trenutniPlus">
+        <p> razlika prihoda i rashoda 5000,00 </p>
+    </div>
+
+    <div class="prihodRashod">
+        <div class="prihod">
+            <p>PRIHOD</p>
+        </div>
+        <div class="rashod">
+            <p>RASHOD</p>
+        </div>
+    </div>
+    <div class="srednjiDeo">
+        <select class="plusMinus">
+            <option value="inc" id="pozitivno" selected>+</option>
+            <option value="exp" id="negativno">-</option>
+        </select>
+        <div class="inputTekst">
+            <input type="text" name="Opis" id="text1" placeholder="Opis">
+        </div>
+        <div class="inputNovac">
+            <input type="number" name="Iznos" id="iznos" placeholder="Iznos">
+        </div>
+        <button id="submit">Potvrdi</button>
+    </div>
+<div id="listMoney">
+    <section class="listaPrihoda1">
+        <ul>PRIHODI</ul>
+        <li id="prihodPlus"></li>
+    </section>
+</div>
+    <section class="listaRashoda">
+        <ul>RASHODI</ul>
+    </section>
+
+</body>
+<script src="app1.js"></script>
+
+</html>

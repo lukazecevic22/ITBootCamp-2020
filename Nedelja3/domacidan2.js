@@ -13,9 +13,9 @@
 
 //DRUGI NACIN
 
-// function pizza(r, cena){
-//     P=r**2*Math.PI
-//     cm=cena/P
-//     }
-//     pizza(32, 150);
-//     console.log(cm)
+function pizza(r, cena){
+    P=r**2*Math.PI
+    cm=cena/P
+    }
+    pizza(32, 150);
+    console.log(cm)
