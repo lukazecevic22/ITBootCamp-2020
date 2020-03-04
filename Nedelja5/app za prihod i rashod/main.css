@@ -1,0 +1,25 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: linear-gradient(to top, #88ccfa 0%, #273136 100%);
+}
+h1 {
+    margin:0;
+    }
+  
+#prihodRashod{
+ display: flex;
+ justify-content: space-between;
+}
+
+#prikaz-prihodi{
+     width: 45%;
+       
+    }
+#prikaz-rashodi{
+     width: 45%;
+        }
