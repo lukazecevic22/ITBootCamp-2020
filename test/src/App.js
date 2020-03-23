@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
-import Container from './Container'
-import noviRadnik from './services/Services'
-// import { noviRadnik } from './services/Services.js'
+import Container from './Container';
+import { noviRadnik } from "./services/Services";
 
 function App() {
 
